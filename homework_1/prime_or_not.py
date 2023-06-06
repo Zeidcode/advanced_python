@@ -13,5 +13,6 @@ def prime_or_not(a):
         else:
             print(f"Число {a} не является простым.")
 
+
 a = int(input("Введите число в диапазоне от 0 строго до 100000: "))
 prime_or_not(a)
