@@ -2,7 +2,7 @@ def trinagle_creation(a, b, c):
     if a + b > c and a + c > b and c + b > a:
         print("Введенными данными невозможно построение треугольника")
     else:
-        print("Данные корректны для создания треугольника ")
+        print("Данные корректны при создании треугольника ")
 
 
 def trinagle_opt(a, b, c):
