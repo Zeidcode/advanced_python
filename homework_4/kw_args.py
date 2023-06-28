@@ -6,5 +6,9 @@ def create_dict(**kwargs):
             hashable_key = str(key)
         result[hashable_key] = value
     return result
+
+
 result = create_dict(a=15, b=27, c="TEXT", d=[1, 2, 3])
 print(result)
+
+# 4
